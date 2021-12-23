@@ -1,0 +1,4 @@
+*Open this folder in visual studio code
+*Make sure interpreter is python 3.10-64bit on the bottom left
+*Open bot.py and debug the code on the top right OR type 'python bot.py' in the terminal
+*Bot will be online on discord and ready to help!
