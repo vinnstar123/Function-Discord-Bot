@@ -1,0 +1,10 @@
+discord.py
+pillow
+numpy
+colour
+asyncio
+pafy
+youtube_dl
+typing
+praw
+urllib
