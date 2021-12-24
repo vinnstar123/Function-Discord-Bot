@@ -15,8 +15,6 @@ logger.setLevel(logging.DEBUG)
 
 TOKEN = 'OTExNjAwNzIxMDU1NjAwNjcx.YZjwVA.XOS2gwiYQQdhhbxHJedNRFavqaA'
 
-os.chdir(r'C:\Users\dange\OneDrive\Desktop\Portfolio\Discord')
-
 prefix = '.'
 
 intents = discord.Intents.default()
