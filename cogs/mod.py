@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import typing
 import discord
 from discord.errors import Forbidden
