@@ -182,7 +182,7 @@ async def unload(ctx, ext):
                 await ctx.channel.send("Extension not loaded.")
                 
 
-@client.command(aliases = ['reload'], hidden = True)
+@client.command(aliases = ['reboot'], hidden = True)
 async def reload(ctx, ext):
     if ctx.author.id == 485123430010585101:
         if str(ext) == "all":
