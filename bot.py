@@ -143,7 +143,7 @@ async def level_up(users, user, message):
 
 
 #functions
-@client.command(aliases = ['i'], hidden = True)
+@client.command(aliases = ['import'], hidden = True)
 async def load(ctx, ext):
     if ctx.author.id == 485123430010585101:
         if str(ext) == "all":
@@ -163,7 +163,7 @@ async def load(ctx, ext):
             except ExtensionAlreadyLoaded:
                 await ctx.channel.send("Extension already loaded.")
 
-@client.command(aliases = ['r'], hidden = True)
+@client.command(aliases = ['remove'], hidden = True)
 async def unload(ctx, ext):
     if ctx.author.id == 485123430010585101:
         if str(ext) == "all":
@@ -182,7 +182,7 @@ async def unload(ctx, ext):
                 await ctx.channel.send("Extension not loaded.")
                 
 
-@client.command(aliases = ['rel'], hidden = True)
+@client.command(aliases = ['reload'], hidden = True)
 async def reload(ctx, ext):
     if ctx.author.id == 485123430010585101:
         if str(ext) == "all":
